@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    font-weight: bolder;
+}
+
+body{
+    background-color: #000;
+    height: 100%;
+}
+
+/*SETION*/
+section{
+    position: fixed;
+    float: left;
+    width: 350px;
+    height: 100%;
+    text-align: center;
+}
+
+section p{
+    margin-top: 15px;
+    width: 100%;
+    color: rgb(148, 148, 148);
+}
+
+#foto{
+    margin-top: 50px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255, .3);
+}
+
+nav{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    display: block;
+}
+
+nav a{
+    display: block;
+    color: rgb(148, 148, 148);
+    margin: 5px auto 5px auto;
+    padding: 10px;
+    width: 120px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15pt;
+    border: none;
+    cursor: pointer;
+}
+
+nav a:hover{
+    color: rgb(200, 200, 200);
+    transition: .3s;
+    border-left: solid 3px;
+}
+
+/*DIV REDES*/
+#redes{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 10px 0;
+}
+
+#redes ul{
+    list-style: none;
+    width: 100%;
+    margin-left: 25px;
+}
+
+i{
+    display: block;
+    float: left;
+    width: 40px;
+    color: rgb(148, 148, 148);
+    padding: 10px;
+    transition: .3s;
+}
+
+/*
+.qrlist{
+    display: none;
+    position: relative;
+    top: -155px;
+    left: -100px;
+}
+
+.qrcode{
+    width: 160px;
+    border-radius: 10px;
+}
+
+#redes ul li:hover .qrlist{
+    display: block;
+}
+*/
+
+.fa-facebook:hover{
+    color: #3b5998;
+    border-top: solid 3px #3b5998;
+}
+
+.fa-instagram:hover{
+    color: #9e0b4d;
+    border-top: solid 3px #9e0b4d;
+}
+
+.fa-whatsapp:hover{
+    color: #34af23;
+    border-top: solid 3px  #34af23;
+}
+
+.fa-linkedin:hover{
+    color: #0e76a8;
+    border-top: solid 3px #0e76a8;
+}
+
+.fa-github:hover{
+    color: #fff;
+    border-top: solid 3px #fff;
+}/*DIV REDES*/
+/*SETION*/
+
+/*ASIDE*/
+aside{
+    max-height: 71vh;
+    overflow: auto;
+    float: right;
+    position: relative;
+    width: 865px;
+    border-radius: 10px;
+    background-color: rgb(148, 148, 148);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255, .3);
+    padding: 50px;
+    margin:  50px 50px 30px 0px;
+    text-transform: uppercase;
+    font-size: 15pt;
+}
+
+/*
+#dicasDev{
+    display: none;
+}
+*/
+
+#curriculum{
+    display: none;
+}
+
+#trabalhos{
+    display: none;
+}
+
+#sobre{
+    display: none;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35pt;
+}
+
+.subT{
+    display: block;
+    width: 100%;
+    font-size: 25pt;
+    text-align: center;
+    border-top: solid 3px #000;
+    border-bottom: solid 3px #000;
+}
+
+.partesCurr{
+    margin: 20px 0 20px 0;
+}
+
+#pdf{
+    position: absolute;
+    top: 56px;
+    left: 130px;
+}
+
+.fa-file-pdf-o{
+    color: #000;
+    padding: 0px;
+}
+
+.fa-file-pdf-o:hover{
+    color: #f00;
+}
+/*ASIDE*/
+
+/*FOOTER*/
+footer{
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(148, 148, 148);
+    text-align: center;
+    padding: 21px;
+    position: relative;
+    display: none;
+}/*FOOTER*/

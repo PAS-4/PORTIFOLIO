@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICASDEV PAS4</title>
+    <link rel="stylesheet" href="./_css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="_images/favicon/p.ico" type="image/x-icon">
+</head>
+<body>
+
+    <section>
+        <img src="./_images/fotoSmall.jpg" id="foto">
+
+        <!--DIV REDES-->
+        <div id="redes">
+            <ul>
+                <li onmousemove="qrCode('_images/redes/face.jpeg', false)" onmouseout="qrCode('./_images/foto.jpg', true)">
+                    <a href="https://facebook.com/patreseavila" target="_blank">
+                        <div class="fa-2x">
+                            <i class="fa fa-facebook fa-lg"></i>
+                        </div>
+                    </a>
+                    <!--<ul class="qrlist">
+                        <li><img src="./_images/redes/face.jpeg" alt="Click ou use a Câmera do seu SmartPhone" class="qrcode"></li>
+                    </ul>-->
+                </li>
+                <li onmousemove="qrCode('_images/redes/insta.jpeg', false)" onmouseout="qrCode('./_images/foto.jpg', true)">
+                    <a href="https://instragram.com/patreseavila" target="_blank">
+                        <div class="fa-2x">
+                            <i class="fa fa-instagram fa-lg"></i>
+                        </div>
+                    </a>
+                    <!--<ul class="qrlist">
+                        <li><img src="./_images/redes/insta.jpeg" alt="Click ou use a Câmera do seu SmartPhone" class="qrcode"></li>
+                    </ul>-->
+                </li>
+                <li onmousemove="qrCode('_images/redes/whatsApp.jpeg', false)" onmouseout="qrCode('./_images/foto.jpg', true)">
+                    <a href="#">
+                        <div class="fa-2x">
+                            <i class="fa fa-whatsapp fa-lg"></i>
+                        </div>
+                    </a>
+                    <!--<ul class="qrlist">
+                        <li><img src="./_images/redes/whatsApp.jpeg" alt="Click ou use a Câmera do seu SmartPhone" class="qrcode"></li>
+                    </ul>-->
+                </li>
+                <li onmousemove="qrCode('_images/redes/linkedin.jpeg', false)" onmouseout="qrCode('./_images/foto.jpg', true)">
+                    <a href="https://https://linkedin.com/in/patrese-%C3%A1vila-b300b01b6" target="_blank">
+                        <div class="fa-2x">
+                            <i class="fa fa-linkedin fa-lg"></i>
+                        </div>
+                    </a>
+                    <!--<ul class="qrlist">
+                        <li><img src="./_images/redes/linkedin.jpeg" alt="Click ou use a Câmera do seu SmartPhone" class="qrcode"></li>
+                    </ul>-->
+                </li>
+                <li onmousemove="qrCode('_images/redes/github.jpeg', false)" onmouseout="qrCode('./_images/foto.jpg', true)">
+                    <a href="https://github.com/patreseavila" target="_blank">
+                        <div class="fa-2x">
+                            <i class="fa fa-github fa-lg"></i>
+                        </div>
+                    </a>
+                    <!--<ul class="qrlist">
+                        <li><img src="./_images/redes/github.jpeg" alt="Click ou use a Câmera do seu SmartPhone" class="qrcode"></li>
+                    </ul>-->
+                </li>
+            </ul>
+        </div>
+
+        <nav>
+            <a onclick="dicasDev()">Dicas Dev</a>
+            <a onclick="curriculum()">Currículum</a>
+            <a onclick="trabalhos()">Trabalhos</a>
+            <a onclick="sobre()">Sobre</a>
+        </nav>
+
+        <p>&copy;PAS4 2020</p>
+
+    </section>
+
+    <aside>
+
+        <!--DIV DICAS DEV-->
+        <div id="dicasDev">
+            <h1>Dicas Dev</h1>
+            <p>Essa é a sessão onde darei dicas de desenvolvimento</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, exercitationem unde. Iste odit reprehenderit numquam enim natus esse quibusdam recusandae, corrupti a qui, consectetur voluptas quisquam fuga voluptatibus ab molestiae!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, exercitationem unde. Iste odit reprehenderit numquam enim natus esse quibusdam recusandae, corrupti a qui, consectetur voluptas quisquam fuga voluptatibus ab molestiae!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, exercitationem unde. Iste odit reprehenderit numquam enim natus esse quibusdam recusandae, corrupti a qui, consectetur voluptas quisquam fuga voluptatibus ab molestiae!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, exercitationem unde. Iste odit reprehenderit numquam enim natus esse quibusdam recusandae, corrupti a qui, consectetur voluptas quisquam fuga voluptatibus ab molestiae!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, exercitationem unde. Iste odit reprehenderit numquam enim natus esse quibusdam recusandae, corrupti a qui, consectetur voluptas quisquam fuga voluptatibus ab molestiae!</p>
+        </div>
+
+        <!--DIV CURRÍCULUM-->
+        <div id="curriculum">
+            <a href="_arquivo/pas4curriculum.pdf" download="CURRÍCULUM - PAS4" target="_blank" id="pdf"><div class="fa-2x"><i class="fa fa-file-pdf-o fa-lg"></i></div></a>
+            <h1>Currículum Vitae</h1>
+            <span class="subT">Informações Pessoais</span>
+            <div class="partesCurr">
+                <p>Nome: Patrese Ávila Santos</p>
+                <p>Data de Nascimento: 04/09/1990</p>
+                <p>Estado Civil: Casado</p>
+                <p>Filiação:</p>
+                Pai: Pedro Sales dos Santos<br>
+                Mãe: Josefa Josete de Jesus Ávila
+            </div>
+
+            <span class="subT">Endereço</span>
+            <div class="partesCurr">
+                <p>Logradouro: Rua da Platina</p>
+                <p>Bairro: Jardim Monte Cristo</p>
+                <p>Cidade: Suzano-SP</p>
+                <p>CEP: 08670-180</p>
+            </div>
+            
+            <span class="subT">Contatos</span>
+            <div class="partesCurr">
+                <p>Celular:</p>
+                TIM (11)95371-9121 / Tim (11)95850-3060 (Ambos WhatsApp).
+                <p>E-mail:</p>
+                patrese.20@gmail.com(mais usado)<br>
+                patreseavila@gmail.com
+            </div>
+            
+            <span class="subT">Escolaridade</span>
+            <div class="partesCurr">
+                <p>Ensino Médio: Completo; Término – 2008.</p><br>
+                <p>Ensino Superior: Completo; Término - 2020</p>
+                Análise e Desenvolvimento de Sistemas (UNOPAR EAD)
+            </div>
+            
+            <span class="subT">Qualificação Profissional</span>
+                <div class="partesCurr">
+                <p>01/2021 – Dias atuais: Prefeitura de Poá/SP (Chefe de Divisão)</p>
+                <p>04/2019 – 01/2021: Prefeitura de Poá/SP (Agente Adm.)</p>
+                <p>02/2018 – 04/2019: D’Nissa Uniformes (Cortador).</p>
+                <p>05/2013 – 03/2017: Alternativa B. e Uni. (Aux. de Prod./Cortador)</p>
+                <p>09/2012 – 04/2013: Erivaldo Francisco Aro ME (Aux. de Produção)</p>
+                <p>08/2010 – 12/2010: Pranatal (Aux. de Produção - Temporário)</p>
+                <p>03/2009 – 04/2010: Cerâmica Coisa Boa - Ibce/BA (Aux. de Prod.)</p>
+            </div>
+            
+            <span class="subT">Disponibilidade e Ambições</span>
+            <div class="partesCurr">
+                <p>Desde já, agradeço pela atenção, me colocando à disposição da empresa para uma eventual entrevista ou teste, o que me possibilitará demonstrar meu empenho e dedicação (individual e em equipe), assim como disciplina perante obrigações e responsabilidades a mim confiadas. Dessa forma almejo, com meu trabalho, ganhar notoriedade e credibilidade aos olhos dos meus superiores.</p>
+                <p>Experiências: Auxiliar de Produção, Cortador (experiência de 3 anos), Desenvolvimento Front-End (Conhecimento teórico e prático básico).</p>
+            </div>
+
+        </div>
+
+        <!--DIV TRABALHOS-->
+        <div id="trabalhos">
+            <h1>Trabalhos</h1>
+            <br><p>Meu 1º Site</p><br>
+            <p>Logradouro: Rua da Platina</p><br>
+            <p>Filiação:</p>
+            Pai: Pedro Sales dos Santos<br>
+            <p>Mãe: Josefa Josete de Jesus Ávila</p><br>
+            <p>Data de Nascimento: 04/09/1990</p><br>
+            Estado Civil: FELIZ
+        </div>
+        
+        <!--DIV SOBRE-->
+        <div id="sobre">
+            <h1>Quem Sou</h1>
+            <br><p>Meu 1º Site</p><br>
+            <p>Logradouro: Rua da Platina</p><br>
+            <p>Filiação:</p>
+            Pai: Pedro Sales dos Santos<br>
+            <p>Mãe: Josefa Josete de Jesus Ávila</p><br>
+            <p>Data de Nascimento: 04/09/1990</p><br>
+            Estado Civil: FELIZ DEMAIS
+        </div>
+        
+    </aside>
+
+    <footer>
+        &copy;PAS4 2020
+    </footer>
+
+<script src="./_js/functions.js"></script>
+</body>
+</html>
