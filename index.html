@@ -69,7 +69,7 @@
             </ul>
         </div>
 
-        <nav>
+        <nav id="menu">
             <a onclick="dicasDev()">Dicas Dev</a>
             <a onclick="curriculum()">Currículum</a>
             <a onclick="trabalhos()">Trabalhos</a>
@@ -84,30 +84,38 @@
 
         <!--DIV DICAS DEV-->
         <div id="dicasDev">
-            <h1>Dicas Dev</h1>
-            <p>Essa é a sessão onde darei dicas de desenvolvimento</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, exercitationem unde. Iste odit reprehenderit numquam enim natus esse quibusdam recusandae, corrupti a qui, consectetur voluptas quisquam fuga voluptatibus ab molestiae!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, exercitationem unde. Iste odit reprehenderit numquam enim natus esse quibusdam recusandae, corrupti a qui, consectetur voluptas quisquam fuga voluptatibus ab molestiae!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, exercitationem unde. Iste odit reprehenderit numquam enim natus esse quibusdam recusandae, corrupti a qui, consectetur voluptas quisquam fuga voluptatibus ab molestiae!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, exercitationem unde. Iste odit reprehenderit numquam enim natus esse quibusdam recusandae, corrupti a qui, consectetur voluptas quisquam fuga voluptatibus ab molestiae!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, exercitationem unde. Iste odit reprehenderit numquam enim natus esse quibusdam recusandae, corrupti a qui, consectetur voluptas quisquam fuga voluptatibus ab molestiae!</p>
+            <nav id="navDicas">
+                <a onclick="ide()">Ide</a>
+                <a onclick="html()">Html</a>
+                <a onclick="css()">Css</a>
+                <a onclick="js()">JavaScript</a>
+            </nav>
+
+            <div id="ide">
+                h1
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, eum suscipit. Labore saepe corrupti est debitis aut, dolor minus sapiente, quam quas facilis non ipsam, maxime fuga ad earum id.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, eum suscipit. Labore saepe corrupti est debitis aut, dolor minus sapiente, quam quas facilis non ipsam, maxime fuga ad earum id.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, eum suscipit. Labore saepe corrupti est debitis aut, dolor minus sapiente, quam quas facilis non ipsam, maxime fuga ad earum id.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, eum suscipit. Labore saepe corrupti est debitis aut, dolor minus sapiente, quam quas facilis non ipsam, maxime fuga ad earum id.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, eum suscipit. Labore saepe corrupti est debitis aut, dolor minus sapiente, quam quas facilis non ipsam, maxime fuga ad earum id.</p>
+            </div>
         </div>
 
         <!--DIV CURRÍCULUM-->
         <div id="curriculum">
             <a href="_arquivo/pas4curriculum.pdf" download="CURRÍCULUM - PAS4" target="_blank" id="pdf"><div class="fa-2x"><i class="fa fa-file-pdf-o fa-lg"></i></div></a>
             <h1>Currículum Vitae</h1>
-            <span class="subT">Informações Pessoais</span>
+            <h2 class="subT">Informações Pessoais</h2>
             <div class="partesCurr">
                 <p>Nome: Patrese Ávila Santos</p>
                 <p>Data de Nascimento: 04/09/1990</p>
                 <p>Estado Civil: Casado</p>
                 <p>Filiação:</p>
-                Pai: Pedro Sales dos Santos<br>
-                Mãe: Josefa Josete de Jesus Ávila
+                <p>Pai: Pedro Sales dos Santos</p>
+                <p>Mãe: Josefa Josete de Jesus Ávila</p>
             </div>
 
-            <span class="subT">Endereço</span>
+            <h2 class="subT">Endereço</h2>
             <div class="partesCurr">
                 <p>Logradouro: Rua da Platina</p>
                 <p>Bairro: Jardim Monte Cristo</p>
@@ -115,23 +123,23 @@
                 <p>CEP: 08670-180</p>
             </div>
             
-            <span class="subT">Contatos</span>
+            <h2 class="subT">Contatos</h2>
             <div class="partesCurr">
                 <p>Celular:</p>
-                TIM (11)95371-9121 / Tim (11)95850-3060 (Ambos WhatsApp).
+                <p>TIM (11)95371-9121 / Tim (11)95850-3060 (Ambos WhatsApp).</p>
                 <p>E-mail:</p>
-                patrese.20@gmail.com(mais usado)<br>
-                patreseavila@gmail.com
+                <p>patrese.20@gmail.com(mais usado)</p>
+                <p>patreseavila@gmail.com</p>
             </div>
             
-            <span class="subT">Escolaridade</span>
+            <h2 class="subT">Escolaridade</h2>
             <div class="partesCurr">
-                <p>Ensino Médio: Completo; Término – 2008.</p><br>
+                <p>Ensino Médio: Completo; Término – 2008.</p>
                 <p>Ensino Superior: Completo; Término - 2020</p>
-                Análise e Desenvolvimento de Sistemas (UNOPAR EAD)
+                <p>(Análise e Desenvolvimento de Sistemas - UNOPAR EAD).</p>
             </div>
             
-            <span class="subT">Qualificação Profissional</span>
+            <h2 class="subT">Qualificação Profissional</h2>
                 <div class="partesCurr">
                 <p>01/2021 – Dias atuais: Prefeitura de Poá/SP (Chefe de Divisão)</p>
                 <p>04/2019 – 01/2021: Prefeitura de Poá/SP (Agente Adm.)</p>
@@ -142,7 +150,7 @@
                 <p>03/2009 – 04/2010: Cerâmica Coisa Boa - Ibce/BA (Aux. de Prod.)</p>
             </div>
             
-            <span class="subT">Disponibilidade e Ambições</span>
+            <h2 class="subT">Disponibilidade e Ambições</h2>
             <div class="partesCurr">
                 <p>Desde já, agradeço pela atenção, me colocando à disposição da empresa para uma eventual entrevista ou teste, o que me possibilitará demonstrar meu empenho e dedicação (individual e em equipe), assim como disciplina perante obrigações e responsabilidades a mim confiadas. Dessa forma almejo, com meu trabalho, ganhar notoriedade e credibilidade aos olhos dos meus superiores.</p>
                 <p>Experiências: Auxiliar de Produção, Cortador (experiência de 3 anos), Desenvolvimento Front-End (Conhecimento teórico e prático básico).</p>
@@ -161,19 +169,19 @@
             <p>Data de Nascimento: 04/09/1990</p><br>
             Estado Civil: FELIZ
         </div>
-        
+
         <!--DIV SOBRE-->
         <div id="sobre">
             <h1>Quem Sou</h1>
-            <br><p>Meu 1º Site</p><br>
-            <p>Logradouro: Rua da Platina</p><br>
-            <p>Filiação:</p>
-            Pai: Pedro Sales dos Santos<br>
-            <p>Mãe: Josefa Josete de Jesus Ávila</p><br>
-            <p>Data de Nascimento: 04/09/1990</p><br>
-            Estado Civil: FELIZ DEMAIS
+            <h2 class="subT">"Pas4"</h2>
+            <div class="descPessoal">
+                <p>Olá, mundo! Me chamo Patrese, e caso esteja se perguntando o porquê da sigla acima, 'PAS' refere-se a "Patrese Ávila Santos" e o número '4' refere-se ao fato de eu ser o 4º filho, todos tendo as mesmas iniciais. Dito isso, resumo-me como nordestino bem-humorado (o que é quase um pleunasmo, considerando que nós nordestinos achamos sempre alguma coisa pra rir, até de desgraça). Eterno estudante de programação, empolgado ao extremo com esse universo que não para de crescer e me surpreender. Assim como todos que estão ou que querem estar nesse mundo dev', busco a todo tempo me aprofundar no que já sei e ainda mais no que ainda não sei (quase tudo).</p>
+                <p>Nesse início de 2021, formado e apreensivo pela primeira oportunidade na área, procuro sempre exercitar a mente com novos desafios, praticando com projetos simples como esse aqui, tentando absorver ao máximo o que os cursos têm a me oferecer e, principalmente, absorver toda ajuda vinda de amigos dev's (esses em especial são minha maior fonte de conhecimento e inspiração, pois são os que me ensinam sem esperar nada em troca e isso é o motivo pelo qual serei sempre grato).</p>
+                <p>A respeito desse projeto, esse portifólio é uma espécie de "agenda dev" onde vou deixar minhas experiências e aprendizados. Tentarei ser didático o máximo possível, pois ele será nada mais do que um repositório de lembretes pra mim mesmo e espero que pra você também, o que me deixaria muito feliz, afinal, quando falamos de desenvolvimento, compartilhar é tão prazeroso quanto!</p>
+                <p>Bora codar!!!</p>
+            </div>
         </div>
-        
+
     </aside>
 
     <footer>
