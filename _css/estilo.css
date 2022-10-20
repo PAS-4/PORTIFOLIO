@@ -103,27 +103,27 @@ i{
 
 .fa-facebook:hover{
     color: #3b5998;
-    border-top: solid 3px #3b5998;
+    border-bottom: solid 5px #3b5998;
 }
 
 .fa-instagram:hover{
     color: #9e0b4d;
-    border-top: solid 3px #9e0b4d;
+    border-bottom: solid 5px #9e0b4d;
 }
 
 .fa-whatsapp:hover{
     color: #34af23;
-    border-top: solid 3px  #34af23;
+    border-bottom: solid 5px  #34af23;
 }
 
 .fa-linkedin:hover{
     color: #0e76a8;
-    border-top: solid 3px #0e76a8;
+    border-bottom: solid 5px #0e76a8;
 }
 
 .fa-github:hover{
     color: #fff;
-    border-top: solid 3px #fff;
+    border-bottom: solid 5px #fff;
 }/*DIV REDES*/
 /*SETION*/
 
@@ -174,7 +174,7 @@ h1{
 
 #navDicas a:hover{
     border-bottom: solid 3px #000;
-    transition: .3s;
+    transition: .2s;
     cursor: pointer;
 }
 
