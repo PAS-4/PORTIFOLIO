@@ -1,20 +1,20 @@
-let _dicasDev = document.querySelector('#dicasDev')
+let _tecnoligias = document.querySelector('#tecnoligias')
 let _curriculum = document.querySelector('#curriculum')
 let _projetos = document.querySelector('#projetos')
 let _sobre = document.querySelector('#sobre')
 
 //NONE
 function none(){
-    _dicasDev.style.display = 'none'
+    _tecnoligias.style.display = 'none'
     _curriculum.style.display = 'none'
     _projetos.style.display = 'none'
     _sobre.style.display = 'none'
 }
 
-//DICASDEV
-function dicasDev(){
+//TECNOLOGIAS
+function tecnoligias(){
     none()
-    _dicasDev.style.display = 'block'
+    _tecnoligias.style.display = 'block'
 }
 
 //CURRÍCULUM
@@ -23,8 +23,8 @@ function curriculum(){
     _curriculum.style.display = 'block'
 }
 
-//TRABALHOS
-function trabalhos(){
+//PROJETOS
+function projetos(){
     none()
     _projetos.style.display = 'block'
 }
