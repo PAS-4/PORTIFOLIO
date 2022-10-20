@@ -3,35 +3,35 @@ let _curriculum = document.querySelector('#curriculum')
 let _projetos = document.querySelector('#projetos')
 let _sobre = document.querySelector('#sobre')
 
-//DICASDEV
-function dicasDev(){
-    _dicasDev.style.display = 'block'
+//NONE
+function none(){
+    _dicasDev.style.display = 'none'
     _curriculum.style.display = 'none'
     _projetos.style.display = 'none'
     _sobre.style.display = 'none'
+}
+
+//DICASDEV
+function dicasDev(){
+    none()
+    _dicasDev.style.display = 'block'
 }
 
 //CURRÍCULUM
 function curriculum(){
-    _dicasDev.style.display = 'none'
+    none()
     _curriculum.style.display = 'block'
-    _projetos.style.display = 'none'
-    _sobre.style.display = 'none'
 }
 
 //TRABALHOS
 function trabalhos(){
-    _dicasDev.style.display = 'none'
-    _curriculum.style.display = 'none'
+    none()
     _projetos.style.display = 'block'
-    _sobre.style.display = 'none'
 }
 
 //SOBRE
 function sobre(){
-    _dicasDev.style.display = 'none'
-    _curriculum.style.display = 'none'
-    _projetos.style.display = 'none'
+    none()
     _sobre.style.display = 'block'
 }
 
