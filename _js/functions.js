@@ -1,13 +1,13 @@
 let _dicasDev = document.querySelector('#dicasDev')
 let _curriculum = document.querySelector('#curriculum')
-let _trabalhos = document.querySelector('#trabalhos')
+let _projetos = document.querySelector('#projetos')
 let _sobre = document.querySelector('#sobre')
 
 //DICASDEV
 function dicasDev(){
     _dicasDev.style.display = 'block'
     _curriculum.style.display = 'none'
-    _trabalhos.style.display = 'none'
+    _projetos.style.display = 'none'
     _sobre.style.display = 'none'
 }
 
@@ -15,7 +15,7 @@ function dicasDev(){
 function curriculum(){
     _dicasDev.style.display = 'none'
     _curriculum.style.display = 'block'
-    _trabalhos.style.display = 'none'
+    _projetos.style.display = 'none'
     _sobre.style.display = 'none'
 }
 
@@ -23,7 +23,7 @@ function curriculum(){
 function trabalhos(){
     _dicasDev.style.display = 'none'
     _curriculum.style.display = 'none'
-    _trabalhos.style.display = 'block'
+    _projetos.style.display = 'block'
     _sobre.style.display = 'none'
 }
 
@@ -31,7 +31,7 @@ function trabalhos(){
 function sobre(){
     _dicasDev.style.display = 'none'
     _curriculum.style.display = 'none'
-    _trabalhos.style.display = 'none'
+    _projetos.style.display = 'none'
     _sobre.style.display = 'block'
 }
 
