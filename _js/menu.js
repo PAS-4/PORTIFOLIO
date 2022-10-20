@@ -1,10 +1,10 @@
 let _tecnoligias = document.querySelector('#tecnoligias')
-let _curriculum = document.querySelector('#curriculum')
 let _projetos = document.querySelector('#projetos')
 let _sobre = document.querySelector('#sobre')
+let _curriculum = document.querySelector('#curriculum')
 
-//NONE
-function none(){
+//NONEMENU
+function noneMenu(){
     _tecnoligias.style.display = 'none'
     _curriculum.style.display = 'none'
     _projetos.style.display = 'none'
@@ -13,26 +13,26 @@ function none(){
 
 //TECNOLOGIAS
 function tecnoligias(){
-    none()
+    noneMenu()
     _tecnoligias.style.display = 'block'
-}
-
-//CURRÍCULUM
-function curriculum(){
-    none()
-    _curriculum.style.display = 'block'
 }
 
 //PROJETOS
 function projetos(){
-    none()
+    noneMenu()
     _projetos.style.display = 'block'
 }
 
 //SOBRE
 function sobre(){
-    none()
+    noneMenu()
     _sobre.style.display = 'block'
+}
+
+//CURRÍCULUM
+function curriculum(){
+    noneMenu()
+    _curriculum.style.display = 'block'
 }
 
 //qrCode

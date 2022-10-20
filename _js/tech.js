@@ -1,36 +1,36 @@
-let _dicasDev = document.querySelector('#dicasDev')
-let _curriculum = document.querySelector('#curriculum')
-let _projetos = document.querySelector('#projetos')
-let _sobre = document.querySelector('#sobre')
+let _ide = document.querySelector('#ide')
+let _html = document.querySelector('#html')
+let _css = document.querySelector('#css')
+let _js = document.querySelector('#js')
 
-//NONE
-function none(){
-    _dicasDev.style.display = 'none'
-    _curriculum.style.display = 'none'
-    _projetos.style.display = 'none'
-    _sobre.style.display = 'none'
+//NONETECHS
+function noneTechs(){
+    _ide.style.display = 'none'
+    _html.style.display = 'none'
+    _css.style.display = 'none'
+    _js.style.display = 'none'
 }
 
-//DICASDEV
-function dicasDev(){
-    none()
-    _dicasDev.style.display = 'block'
+//IDE
+function ide(){
+    noneTechs()
+    _ide.style.display = 'block'
 }
 
-//CURRÍCULUM
-function curriculum(){
-    none()
-    _curriculum.style.display = 'block'
+//HTML
+function html(){
+    noneTechs()
+    _html.style.display = 'block'
 }
 
-//PROJETOS
-function projetos(){
-    none()
-    _projetos.style.display = 'block'
+//CSS
+function css(){
+    noneTechs()
+    _css.style.display = 'block'
 }
 
-//SOBRE
-function sobre(){
-    none()
-    _sobre.style.display = 'block'
+//JS
+function js(){
+    noneTechs()
+    _js.style.display = 'block'
 }
