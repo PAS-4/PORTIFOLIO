@@ -148,21 +148,28 @@ i{
 aside{
     position: relative;
     width: 75%;
-    max-height: 90vh;
+    max-height: 100vh;
     overflow: auto;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     color:#949494;
-    background-image: linear-gradient(135deg, #000, #94949490);
-    box-shadow: -10px -10px 20px rgb(255, 255, 255, .2);
+    /* background-image: linear-gradient(135deg, #000, #94949490); */
+    background: #fff;
+    box-shadow: 25px -25px 100px #00000075 inset;
     box-sizing: border-box;
     padding: 50px;
-    margin: 50px 50px 50px 0;
+    /* margin: 50px 50px 50px 0; */
     text-transform: uppercase;
     font-size: 15pt;
 }
 
 h1{
-    margin-bottom: 20px;
+    position: relative;
+    left: -50px;
+    top: -50px;
+    width: 100%;
+    padding: 50px;
+    background: #000;
+    /* margin-bottom: 20px; */
     text-align: center;
     font-size: 35pt;
 }
@@ -191,10 +198,36 @@ h1{
 }
 
 #techs a:hover{
-    border-bottom: solid 5px #949494;
+    /* border-bottom: solid 5px #949494; */
     transition: .2s;
     cursor: pointer;
 }
+
+#techs a[onclick="ide()"]:hover{
+    color: #000;
+    border-bottom: solid 5px #000;
+}
+
+#techs a[onclick="html()"]:hover{
+    color: #D74A24;
+    border-bottom: solid 5px #D74A24;
+}
+
+#techs a[onclick="css()"]:hover{
+    color: #3491CB;
+    border-bottom: solid 5px #3491CB;
+}
+
+#techs a[onclick="js()"]:hover{
+    color: #EFD81D;
+    border-bottom: solid 5px #EFD81D;
+}
+
+/*
+#D74A24 - HTML
+#3491CB - CSS
+#EFD81D - JS
+*/
 
 #ide{/*IDE*/
     position: relative;
