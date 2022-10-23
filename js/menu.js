@@ -9,11 +9,14 @@ function noneMenu(){
     _curriculum.style.display = 'none'
     _projetos.style.display = 'none'
     _sobre.style.display = 'none'
+    _aside.style.boxShadow = '25px -25px 100px #00000085 inset'
 }
 
 //TECNOLOGIAS
 function tecnoligias(){
     noneMenu()
+    noneTechs()
+    _ide.style.display = 'block'
     _tecnoligias.style.display = 'block'
 }
 

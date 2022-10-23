@@ -151,7 +151,7 @@ aside{
     max-height: 100vh;
     overflow: auto;
     /* border-radius: 10px; */
-    color:#949494;
+    color:#000;
     /* background-image: linear-gradient(135deg, #000, #94949490); */
     background: #fff;
     box-shadow: 25px -25px 100px #00000075 inset;
@@ -160,6 +160,7 @@ aside{
     /* margin: 50px 50px 50px 0; */
     text-transform: uppercase;
     font-size: 15pt;
+    transition: all .5s ease;
 }
 
 h1{
@@ -168,6 +169,7 @@ h1{
     top: -50px;
     width: 100%;
     padding: 50px;
+    color: #949494;
     background: #000;
     /* margin-bottom: 20px; */
     text-align: center;
@@ -223,27 +225,18 @@ h1{
     box-shadow: 0px -60px 1px #EFD81D inset;
 }
 
-/*
-#D74A24 - HTML
-#3491CB - CSS
-#EFD81D - JS
-*/
-
 #ide{/*IDE*/
     position: relative;
+    width: 100%;
+    height: 100vh;
 }/*IDE*/
 
-#html{/*HTML*/
+#html, #css, #js{/*HTML, CSS, JS*/
     display: none;
-}/*HTML*/
+    width: 100%;
+    height: 100vh;
+}/*HTML, CSS, JS*/
 
-#css{/*CSS*/
-    display: none;
-}/*CSS*/
-
-#js{/*JS*/
-    display: none;
-}/*JS*/
 /*TECNOLOGIAS*/
 
 /*CURRÍCULUM*/
@@ -252,13 +245,14 @@ h1{
 }
 
 .partesCurr{
-    margin: 20px 0 20px 0;
+    margin: 25px 0 50px 0;
 }
 
 #pdf{
     position: absolute;
     top: 56px;
-    left: 130px;
+    right: 130px;
+    z-index: 1;
 }
 
 .fa-file-pdf-o{
@@ -290,18 +284,6 @@ h1{
     margin: 30px 0 20px 0;
 }
 /*SOBRE*/
-
-#html{/*HTML*/
-    display: none;
-}/*HTML*/
-
-#css{/*CSS*/
-    display: none;
-}/*CSS*/
-
-#js{/*JS*/
-    display: none;
-}/*JS*/
 
 /*ASIDE*/
 
