@@ -19,10 +19,10 @@ function noneTechs(){
     _classHtml.style.color = '#000'
     _classCss.style.color = '#000'
     _classJs.style.color = '#000'
-    _classIde.style.backgroundColor = '#fff'
-    _classHtml.style.boxShadow = '0px 0px 0px #D74A24 inset'
-    _classCss.style.boxShadow = '0px 0px 0px #3491CB inset'
-    _classJs.style.boxShadow = '0px 0px 0px #EFD81D inset'
+    _classIde.style.boxShadow = '0px -3px 0px #000 inset'
+    _classHtml.style.boxShadow = '0px -3px 0px #D74A24 inset'
+    _classCss.style.boxShadow = '0px -3px 0px #3491CB inset'
+    _classJs.style.boxShadow = '0px -3px 0px #EFD81D inset'
 }
 
 //IDE
@@ -30,7 +30,7 @@ function ide(){
     noneTechs()
     _ide.style.display = 'block'
     _classIde.style.color = '#fff'
-    _classIde.style.backgroundColor = '#000'
+    _classIde.style.boxShadow = '0px -60px 1px #000 inset'
     _aside.style.boxShadow = '25px -25px 100px #00000085 inset'
 }
 

@@ -205,6 +205,22 @@ h1{
     cursor: pointer;
 }
 
+#techs a[onclick="ide()"]{
+    box-shadow: 0px -3px 0px #000 inset;
+}
+
+#techs a[onclick="html()"]{
+    box-shadow: 0px -3px 0px #D74A24 inset;
+}
+
+#techs a[onclick="css()"]{
+    box-shadow: 0px -3px 0px #3491CB inset;
+}
+
+#techs a[onclick="js()"]{
+    box-shadow: 0px -3px 0px #EFD81D inset;
+}
+
 #techs a[onclick="ide()"]:hover{
     color: #fff;
     box-shadow: 0px -60px 1px #000 inset;
