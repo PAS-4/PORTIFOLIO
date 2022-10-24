@@ -31,7 +31,7 @@ function ide(){
     _ide.style.display = 'block'
     _classIde.style.color = '#fff'
     _classIde.style.boxShadow = '0px -60px 1px #000 inset'
-    _aside.style.boxShadow = '25px -25px 100px #00000085 inset'
+    // _ide.style.boxShadow = '0px 0px 100px #00000085 inset'
 }
 
 //HTML
@@ -40,7 +40,7 @@ function html(){
     _html.style.display = 'block'
     _classHtml.style.color = '#fff'
     _classHtml.style.boxShadow = '0px -60px 1px #D74A24 inset'
-    _aside.style.boxShadow = '25px -25px 100px #D74A2485 inset'
+    _html.style.boxShadow = '0px 0px 100px #D74A2485 inset'
 }
 
 //CSS
@@ -49,7 +49,7 @@ function css(){
     _css.style.display = 'block'
     _classCss.style.color = '#fff'
     _classCss.style.boxShadow = '0px -60px 1px #3491CB inset'
-    _aside.style.boxShadow = '25px -25px 100px #3491CB85 inset'
+    _css.style.boxShadow = '0px 0px 100px #3491CB85 inset'
 }
 
 //JS
@@ -58,5 +58,5 @@ function js(){
     _js.style.display = 'block'
     // _classJs.style.color = '#fff'
     _classJs.style.boxShadow = '0px -60px 1px #EFD81D inset'
-    _aside.style.boxShadow = '25px -25px 100px #EFD81D85 inset'
+    _js.style.boxShadow = '0px 0px 100px #EFD81D85 inset'
 }

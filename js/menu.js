@@ -1,11 +1,11 @@
-let _tecnoligias = document.querySelector('#tecnoligias')
+let _tecnologias = document.querySelector('#tecnologias')
 let _projetos = document.querySelector('#projetos')
 let _sobre = document.querySelector('#sobre')
 let _curriculum = document.querySelector('#curriculum')
 
 //NONEMENU
 function noneMenu(){
-    _tecnoligias.style.display = 'none'
+    _tecnologias.style.display = 'none'
     _curriculum.style.display = 'none'
     _projetos.style.display = 'none'
     _sobre.style.display = 'none'
@@ -13,11 +13,12 @@ function noneMenu(){
 }
 
 //TECNOLOGIAS
-function tecnoligias(){
+function tecnologias(){
     noneMenu()
-    noneTechs()
-    _ide.style.display = 'block'
-    _tecnoligias.style.display = 'block'
+    ide()
+    // noneTechs()
+    // _ide.style.display = 'block'
+    _tecnologias.style.display = 'block'
 }
 
 //PROJETOS
