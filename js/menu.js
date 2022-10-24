@@ -9,7 +9,13 @@ function noneMenu(){
     _curriculum.style.display = 'none'
     _projetos.style.display = 'none'
     _sobre.style.display = 'none'
-    _aside.style.boxShadow = '25px -25px 100px #00000085 inset'
+    _aside.style.boxShadow = '0px 0px 100px #00000085 inset'
+}
+
+//SOBRE
+function sobre(){
+    noneMenu()
+    _sobre.style.display = 'block'
 }
 
 //TECNOLOGIAS
@@ -25,12 +31,6 @@ function tecnologias(){
 function projetos(){
     noneMenu()
     _projetos.style.display = 'block'
-}
-
-//SOBRE
-function sobre(){
-    noneMenu()
-    _sobre.style.display = 'block'
 }
 
 //CURRÍCULUM
