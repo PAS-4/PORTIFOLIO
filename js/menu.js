@@ -40,13 +40,13 @@ function curriculum(){
 }
 
 //qrCode
-function qrCode(foto, borderRadius){
-    const minhaFoto = document.querySelector('#foto')
-    minhaFoto.src = foto
-    minhaFoto.style.transition = '.5s'
-    if(borderRadius){
-        minhaFoto.style.borderRadius = '50%'
-    }else{
-        minhaFoto.style.borderRadius = '10%'
-    }
-}
+// function qrCode(foto, borderRadius){
+//     const minhaFoto = document.querySelector('#foto')
+//     minhaFoto.src = foto
+//     minhaFoto.style.transition = '.5s'
+//     if(borderRadius){
+//         minhaFoto.style.borderRadius = '50%'
+//     }else{
+//         minhaFoto.style.borderRadius = '10%'
+//     }
+// }
