@@ -9,8 +9,8 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
     box-sizing: border-box;
+    font-size: 83.3%;
 }
 
 body{
@@ -73,6 +73,7 @@ section p{
     width: 100%;
     display: flex;
     justify-content: center;
+    font-size: 1.6rem;
 }
 
 i{
@@ -138,11 +139,12 @@ i{
     margin: 5px auto 5px auto;
     padding: 10px;
     width: 35%;
-    min-width: 130px;
+    min-width: 150px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 15pt;
     border: none;
+    font-weight: bolder;
     cursor: pointer;
 }
 
@@ -161,7 +163,6 @@ aside{
     color:#000;
     background: #fff;
     box-shadow: 0px 0px 100px #00000085 inset;
-    text-transform: uppercase;
     font-size: 15pt;
     transition: all .5s ease;
     /* background-image: linear-gradient(135deg, #000, #94949490); */
@@ -171,7 +172,7 @@ h1{
     display: block;
     position: relative;
     width: 100%;
-    height: 15%;
+    height: auto;
     padding: 50px;
     color: #fff;
     background: #000;
@@ -214,9 +215,7 @@ h1{
     text-indent: 100px;
     text-align: justify;
     margin: 30px 0 20px 0;
-    line-height: 1.5rem;
-    font-size: 1rem;
-    font-family: "gameFont";
+    font-size: 1.6rem;
 }
 /*SOBRE*/
 
@@ -225,19 +224,24 @@ h1{
     display: none;
     height: 100vh;
     box-shadow: 0px 0px 100px #00000085 inset;
+    font-size: 1.6rem;
 }
 
 #techs{
     display: none;
     width: 100%;
-    height: 5%;
+    height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color: #000;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 #techs a{
-    width: 24.5%;
+    width: 23%;
     max-height: 60px;
     text-align: center;
     padding: 10px;
@@ -250,22 +254,26 @@ h1{
 }
 
 #techs a[onclick="ide()"]{
-    box-shadow: 0px -3px 0px #000 inset;
+    color: #0075B8;
+    box-shadow: 0px -3px 0px #0075B8 inset;
 }
 
 #techs a[onclick="html()"]{
+    color: #D74A24;
     box-shadow: 0px -3px 0px #D74A24 inset;
 }
 
 #techs a[onclick="css()"]{
+    color: #3491CB;
     box-shadow: 0px -3px 0px #3491CB inset;
 }
 
 #techs a[onclick="js()"]{
+    color: #EFD81D;
     box-shadow: 0px -3px 0px #EFD81D inset;
 }
 
-#techs a[onclick="ide()"]:hover{
+/* #techs a[onclick="ide()"]:hover{
     color: #fff;
     box-shadow: 0px -60px 1px #000 inset;
 }
@@ -283,7 +291,7 @@ h1{
 #techs a[onclick="js()"]:hover{
     color: #000;
     box-shadow: 0px -60px 1px #EFD81D inset;
-}
+} */
 
 #ide{/*IDE*/
     position: relative;

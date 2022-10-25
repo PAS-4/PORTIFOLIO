@@ -15,11 +15,11 @@ function noneTechs(){
     _html.style.display = 'none'
     _css.style.display = 'none'
     _js.style.display = 'none'
-    _classIde.style.color = '#000'
-    _classHtml.style.color = '#000'
-    _classCss.style.color = '#000'
-    _classJs.style.color = '#000'
-    _classIde.style.boxShadow = '0px -3px 0px #000 inset'
+    _classIde.style.color = '#0075B8'
+    _classHtml.style.color = '#D74A24'
+    _classCss.style.color = '#3491CB'
+    _classJs.style.color = '#EFD81D'
+    _classIde.style.boxShadow = '0px -3px 0px #0075B885 inset'
     _classHtml.style.boxShadow = '0px -3px 0px #D74A24 inset'
     _classCss.style.boxShadow = '0px -3px 0px #3491CB inset'
     _classJs.style.boxShadow = '0px -3px 0px #EFD81D inset'
@@ -30,7 +30,7 @@ function ide(){
     noneTechs()
     _ide.style.display = 'block'
     _classIde.style.color = '#fff'
-    _classIde.style.boxShadow = '0px -60px 1px #000 inset'
+    _classIde.style.boxShadow = '0px -60px 1px #0075B8 inset'
     // _ide.style.boxShadow = '0px 0px 100px #00000085 inset'
 }
 
@@ -56,7 +56,7 @@ function css(){
 function js(){
     noneTechs()
     _js.style.display = 'block'
-    // _classJs.style.color = '#fff'
+    _classJs.style.color = '#000'
     _classJs.style.boxShadow = '0px -60px 1px #EFD81D inset'
     _js.style.boxShadow = '0px 0px 100px #EFD81D85 inset'
 }
