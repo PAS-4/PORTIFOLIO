@@ -291,25 +291,24 @@ p{
     box-shadow: 0px -60px 1px #EFD81D inset;
 } */
 
-#ide{/*IDE*/
-    position: relative;
+#ide, #html, #css, #js{
     width: 100%;
     height: calc(100vh - 208px);
     padding: 0px 100px 50px;
-    box-shadow: 0px 0px 100px #00000085 inset;
     overflow: auto;
-    text-indent: 100px;
     text-align: justify;
+}
+
+#ide p, #html p, #css p, #js p{
+    text-indent: 100px;
+}
+
+#ide{/*IDE*/
+    box-shadow: 0px 0px 100px #00000085 inset;
 }/*IDE*/
 
 #html, #css, #js{/*HTML, CSS, JS*/
     display: none;
-    width: 100%;
-    height: calc(100vh - 208px);
-    padding: 0px 100px 50px;
-    overflow: auto;
-    text-indent: 100px;
-    text-align: justify;
 }/*HTML, CSS, JS*/
 /*TECNOLOGIAS*/
 
